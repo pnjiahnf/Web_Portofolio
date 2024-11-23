@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+    flex-wrap: wrap; /* Memungkinkan item untuk membungkus ke baris baru */
+    padding: 10px; /* Memberikan padding */
+}
+
+.navbar a {
+    display: inline-block; 
+    color: yellow; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s, color 0.3s; 
+    margin: 5px; /* Menambahkan jarak antar link */
+}
+
+.navbar a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.container {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 20px; /* Padding di dalam kontainer */
+    width: 100%; /* Memastikan kontainer memenuhi lebar penuh */
+}
+
+.ui {
+    max-width: 20%; /* Membatasi lebar gambar agar responsif */
+    height: auto; 
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+}

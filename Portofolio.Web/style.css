@@ -1,0 +1,125 @@
+/* semua nya */
+* {
+    box-sizing:border-box;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* bagian atas web yaitu Navbar style */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(19, 18, 18);
+    transition: background-color 1.1s;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar li {
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+  
+  /* sosial media */
+  .social-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: color 0.3s;
+  }
+
+  .social-link:hover {
+    color: wheat;
+  }
+  
+  .fab {
+    font-size: 28px;
+  }
+  
+  /* tampilan sosmed dan tulisan */
+  .navbar a {
+    display: inline-block;
+    color: lightgoldenrodyellow;
+    text-decoration:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+    font-size: bold;
+    transform: scale(1.1);
+    transition: color 0.3s;
+  }
+  
+  /* Container class yang mencakup gambar + teks */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  
+  /* Gambarnya */
+  .ui {
+    max-width: 90%;
+    width: 30vh;
+    height: auto;
+    border-radius: 30%;
+    transition: transform 0.3s;
+    border: 3px solid lightgoldenrodyellow;
+    padding: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 15px; 
+  }
+  
+  .ui:hover {
+    transform: scale(1.11);
+  }
+
+   /* bagian teks samping gambar */
+  .halo {
+    font-size: 15px;
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(252, 252, 203), white);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .Nama {
+    color: white;
+    font-size: 40px;
+    padding: 1px;
+    font-weight: bold;
+  }
+
+h4{
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+}
